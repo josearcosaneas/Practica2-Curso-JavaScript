@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pagina3</title>
+<h1>Ejercicio2. JQuery</h1>
+<h2>Uso de la funcion animate. </h2>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<div>
+
+
+
+</div>
+<script type="text/javascript" >
+	
+<!-- Funciones para hacer mas dinamica-->
+function entraMouse()
+{
+  $(this).css("background-color","#f00");
+}
+
+function saleMouse()
+{
+  $(this).css("background-color","#fff");
+}
+
+<!--Hacemos uso de la funcion "hover" de jquery -->
+$(document).ready(function()
+{
+  $("a").hover(entraMouse,saleMouse);
+  });
+</script>
+
+</head>
+
+<body>  
+<div id = "divisio0">
+Y esta es la ultima página de nuestra pagina web para el 
+ejercicio de Jquery.
+</div>
+        
+          
+<div id="division1">
+El siguiente enlace le dirige a mi direccion de github.
+<br></br>
+Uso otro metodo de jQuery en este caso hover() junto a css para cambiar el color. Para iluminar el enlace cuando el cursor esta encima de este.
+</div>
+<a href= "http://jqueryui.com/" >Pagina de JQUERY donde encontrar muchos ejemplos de su uso.</a>  <br></br>
+<a href="http://www.javascriptya.com.ar">Pagina donde aparece muchos ejemplos de Jquery.</a>
+<br></br>
+<a href="https://github.com/josearcosaneas/">Mi pagina en Github</a>
+
+</html>

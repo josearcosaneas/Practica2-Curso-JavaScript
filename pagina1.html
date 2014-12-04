@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Pagina1</title>
+<h1>Ejercicio2. JQuery</h1>
+<h2>Pagina principal del Ejercicio2. </h2>
+<div >
+<p>En esta pagina se muestran distintas funcionalidades de JQuery.
+</p>
+<p>El siguiente ejemplo muestra como mostrar/ocultar la informacion realizando un click sobre "Ocultar/Mostrar recuadro". Esta accion nos hara visible una region DIV.
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="funciones1.js"></script>
+</head>
+<body>
+	
+<!--Introducimos botones para mostrar y ocultar -->
+<input type="button" id="boton1" value="Ocultar recuadro">
+<input type="button" id="boton2" value="Mostrar recuadro">
+
+
+<!--Introducimos un texto explicativo. Le doy un 'id' descripcion -->
+<div id="descripcion" class="recuadro">
+<p>En este ejercicio se prueba el uso de JQuery.</p> 
+<p>En esta primera pagina mostrar la funcionalidad de el metodo Show() y Hide.
+<p>Este metodo permite ocultar o mostrar un texto identificando su contenedor por su "id".</p>
+<p>Ademas justo debajo de este texto podemos ver un nuevo boton. Este boton nos permite extraer un texto, que en nuestro caso se encuentra en un parrafo. Este texto los mostrare a traves de una alerta.<p>
+<p>Para continuar con el ejercicio haga click en cargar pagina.</p>
+<p>Esto nos abrira una nueva ventana con la que prosigue el ejercicio.</p>
+
+<!--Introducimos un boton para extraer parrafo -->
+</div>
+<input type="button" value="Obtener el texto contenido en un 
+párrafo" id="boton4"><br>
+
+<!--Identificamos el parrafo con un 'id' para poder identificarlo -->
+<p id="parrafo1">Pinchando el boton extraeremos el texto de el parrafo 'parrafo1'</p>
+
+<!--Introducimos un boton para cargar la siguiente pagina del ejemplo-->
+<input type="button" id="boton3" value="Cargar Pagina">
+
+
+</body>
+</html> 

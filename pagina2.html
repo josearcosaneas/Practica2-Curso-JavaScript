@@ -1,0 +1,65 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>Pagina2</title>
+<h1>Ejercicio2. JQuery</h1>
+<h2>Uso de la funcion data. </h2>
+<div> 
+Ahora vamos a probar el metodo data() de JQuery.
+
+</div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="funciones2.js">
+
+</script>
+</head>
+
+<body>
+<div> 
+El siguiente es un formulario simple, pero que como ejemplo nos será útil.
+Introducimos un valor, este podra ser guardado y una vez sea almacenado podremos leerlo y mostrarlo justo en la parte inferior del formulario o eliminarlo, segun se desee, presionando uno de los botones disponibles.
+<br></br>
+</div>
+<form name="formul">
+Escribe un valor a guardar, leer o eliminar: 
+
+<!--entrada de texto que guardaremos en la varible valor -->
+<input type="text" name="valor" id="valor">
+<br>
+
+<!--Cargamos los botones para las diferentes funcionalidades -->
+<input type="button" value="guardar" id="guardar">
+<input type="button" value="leer " id="leer">
+<input type="button" value="eliminar" id="eliminar">
+</form>
+<br>
+
+<!--Creamos un div que identificaremos por su 'id' donde mostraremos le valor -->
+<div id="division">
+En este DIV guardo datos con la función data y luego los o elimino
+</div>
+<br></br>
+
+<!--Introducimos un checkbox para abrir una nueva seccion de texto -->
+<input type="checkbox"  value="1" id="abrir_entrada_texto"> Click para abrir formulario.
+<br></br>
+
+<!--Aqui desplegamos una entrada de texto  -->
+<div id="texto" style="display: none;">
+Nueva seccion para introducir texto: <input type="text" >
+</div>
+<br></br>
+<div id="division2">
+si lo dea podemos ir a otra pagina en la que se usa otro metodo
+animate()
+</div>
+
+<!--Introducimos un boton para ir a otra pagina -->
+<input type="button" id="boton3" value="Cargar Pagina">
+
+
+</body>
+</html>
